@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
@@ -13,28 +13,28 @@ const Navigation = () => {
       <div className="navigation">
         <ul>
           <li>
-            <NavLink to="/" activeClassName="navActive">
+            <Link to="/" className="navActive">
               <i className="fas fa-home"></i>
               <span>Accueil</span>
-            </NavLink>
+            </Link>
           </li>
           <li>
-            <NavLink to="/competences" activeClassName="navActive">
+            <Link to="/competences" className="navActive">
               <i className="fas fa-mountain"></i>
               <span>Compétences</span>
-            </NavLink>
+            </Link>
           </li>
           <li>
-            <NavLink to="/portfolio" activeClassName="navActive">
+            <Link to="/portfolio" className="navActive">
               <i className="fas fa-images"></i>
               <span>Portfolio</span>
-            </NavLink>
+            </Link>
           </li>
           <li>
-            <NavLink to="/contact" activeClassName="navActive">
+            <Link to="/contact" className="navActive">
               <i className="fas fa-address-book"></i>
               <span>Contact</span>
-            </NavLink>
+            </Link>
           </li>
         </ul>
       </div>
@@ -46,37 +46,40 @@ const Navigation = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-brands fa-facebook" />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.facebook.com/profile.php?id=100076252860261"
-              target="_blank"
-              rel="noreferrer"
-            >
               <i className="fa fa-facebook"></i>
             </a>
           </li>
           <li>
             <a
-              href="https://www.facebook.com/profile.php?id=100076252860261"
+              href="https://www.linkedin.com/in/emmanuel-verbrugge-3b211b145"
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa fa-facebook"></i>
+              <i className="fab fa-linkedin"></i>
             </a>
           </li>
           <li>
             <a
-              href="https://www.facebook.com/profile.php?id=100076252860261"
+              href="https://github.com/Winters67"
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-brands fa-facebook"></i>
+              <i className="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.https://twitter.com/VBG_Winters"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fab fa-twitter"></i>
             </a>
           </li>
         </ul>
+        <div className="signature">
+          <p>Winters|dev 2022</p>
+        </div>
       </div>
     </div>
   );
