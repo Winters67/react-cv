@@ -1,6 +1,7 @@
 .knowledges {
   .knowledgesContent {
     min-height: $minHeight;
+    max-height: 95vh;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -15,12 +16,12 @@
     .experience,
     .otherSkills,
     .hobbies {
-      background: $color-2;
+      background-image: linear-gradient(50deg, #0167a2 20%, #5a968f 80%);
       border-radius: $borderRadius;
       padding: 0.8rem;
     }
     h4 {
-      padding-top: 20px;
+      padding-top: 10px;
     }
 
     h3 {
@@ -148,6 +149,7 @@
     .otherSkills {
       grid-area: O;
       margin-right: 0.5rem;
+      overflow: auto;
 
       .list {
         display: flex;
@@ -172,6 +174,7 @@
 
       ul {
         height: 80%;
+
         display: grid;
 
         li {
@@ -180,6 +183,7 @@
             color: $color-5;
           }
           span {
+            width: 150px;
             position: absolute;
             transform: translateX(2.2rem);
           }
