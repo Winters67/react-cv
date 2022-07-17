@@ -1,5 +1,7 @@
 .sidebar {
-  background: $color-1;
+  background-color: #0167a2;
+  background-image: linear-gradient(77deg, #0167a2 2%, #5a968f 60%);
+
   font-family: $font-1;
   height: 100%;
   min-height: $minHeight;
@@ -31,7 +33,7 @@
         max-width: 150px;
         max-height: 150px;
         border-radius: 50%;
-        box-shadow: 0 0 0 4px $color-3, 0 0 0 8px $color-4, 0 0 0 12px $color-2;
+        box-shadow: 0 0 0 3px $color-3;
       }
       h3 {
         font-size: 1.3rem;
@@ -111,6 +113,7 @@
       }
     }
     .signature {
+      color: beige;
       margin-top: 2rem;
       text-align: center;
       letter-spacing: 0.1rem;

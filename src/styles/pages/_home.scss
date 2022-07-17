@@ -1,6 +1,11 @@
 .home {
   .homeContent {
-    background: linear-gradient(115deg, $color-1 50%, transparent 100%);
+    background: linear-gradient(
+      115deg,
+      #0167a2 2%,
+      #5a968f 60%,
+      transparent 100%
+    );
     min-height: $minHeight;
     width: 100%;
     min-height: 500px;
@@ -62,7 +67,7 @@
 @media screen and (max-width: 580px) {
   .homeContent {
     &:after {
-      background: url("../../media/pc.jpg") no-repeat 60% 50% / cover !important;
+      background: url("../../media/bureau2.jpg") no-repeat 60% 50% / cover !important;
     }
     h1 {
       font-size: 3rem !important;
