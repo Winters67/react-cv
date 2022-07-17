@@ -6,7 +6,11 @@ const Navigation = () => {
     <div className="sidebar">
       <div className="id">
         <div className="idContent">
-          <img src="./media/Emmanuel.jpg" alt="profil-pic" />
+          <img
+            className="sizeImg"
+            src="./media/Emmanuel.jpg"
+            alt="profil-pic"
+          />
           <h3>Emmanuel Verbrugge</h3>
         </div>
       </div>
@@ -46,7 +50,7 @@ const Navigation = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa fa-facebook"></i>
+              <i className="fab fa-facebook"></i>
             </a>
           </li>
           <li>

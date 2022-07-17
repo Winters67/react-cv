@@ -9,7 +9,11 @@ const Home = () => {
         <div className="content">
           <h1>Emmanuel Verbrugge</h1>
           <h2>Développeur Front-end</h2>
-          <div className="pdf"></div>
+          <div className="pdf">
+            <a href="./media/CV.pdf" target="_blank">
+              Télécharger
+            </a>
+          </div>
         </div>
       </div>
     </div>
