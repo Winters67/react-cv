@@ -1,7 +1,41 @@
 import React from "react";
 
 const OtherSkills = () => {
-  return <div>OterSkill</div>;
+  return (
+    <div className="otherSkills">
+      <h3>Autres compétences</h3>
+      <div className="list">
+        <ul>
+          <li>
+            <i className="fas fa-check-square">Compétences</i>
+          </li>
+          <li>
+            <i className="fas fa-check-square">Compétences</i>
+          </li>
+          <li>
+            <i className="fas fa-check-square">Compétences</i>
+          </li>
+          <li>
+            <i className="fas fa-check-square">Compétences</i>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <i className="fas fa-check-square">Compétences</i>
+          </li>
+          <li>
+            <i className="fas fa-check-square">Compétences</i>
+          </li>
+          <li>
+            <i className="fas fa-check-square">Compétences</i>
+          </li>
+          <li>
+            <i className="fas fa-check-square">Compétences</i>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
 };
 
 export default OtherSkills;
